@@ -9,4 +9,8 @@ Employee.prototype.getName = function (){
     return this.name
 }
 
+Employee.prototype.getId = function () {
+    return this.id
+}
+
 module.exports = Employee
