@@ -13,4 +13,8 @@ Employee.prototype.getId = function () {
     return this.id
 }
 
+Employee.prototype.getEmail = function (){
+    return this.email
+}
+
 module.exports = Employee
